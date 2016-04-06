@@ -5,5 +5,13 @@ a trello board for artists
 Holly Peck 
 holly.m.peck@gmail.com
 
-Nami 
-nami.email@gamil.com
+So-Young Nam
+email@email.com
+
+# Technology 
+- Ruby on Rails 
+- JavaScript 
+- Underscore.js
+- THREE.js
+- AJAX
+- Handlebars.js
