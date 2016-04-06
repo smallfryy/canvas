@@ -1,0 +1,35 @@
+# == Schema Information
+#
+# Table name: tasks
+#
+#  id          :integer          not null, primary key
+#  canvas_id   :integer
+#  title       :string
+#  description :text
+#  priority    :string
+#  deadline    :string
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  canvas_id: MyString
+  integer: MyString
+  task_id: MyString
+  integer: MyString
+  title: MyString
+  description: MyText
+  priority: MyString
+  deadline: MyString
+
+two:
+  canvas_id: MyString
+  integer: MyString
+  task_id: MyString
+  integer: MyString
+  title: MyString
+  description: MyText
+  priority: MyString
+  deadline: MyString
