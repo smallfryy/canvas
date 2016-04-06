@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OO Task canva</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="../assets/javascripts/lib/jquery-2.1.1.min.js"></script>
+  <script src="../assets/javascripts/lib/underscore.min.js"></script>
+</head>
+<body>
+<h1>Canvas</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+<!-- viewed on browser -->
+  <div id="wrapper">
+    <h1>My Canvas</h1>
+
+    <form id="add_canva" action="#" methos="post">
+      <label for="canva_title">Add a new Canva:</label>
+      <input type="text" id="canva_title" name="canva_title" placeholder="title">
+      <input type="submit" value="(+) add">
+    </form><!-- #add_canva -->
+    
+    <form id="add_task" action="#" method="post">
+      <label for="select_canva">Select canva:</label>
+      <select id="select_canva" name="select_canva"></select>
+      <label for="task_description">Task description:</label>
+      <input type="text" id="task_description" name="task_description" placeholder="description">
+      <label for="task_priority">Priority level:</label>
+      <input type="text" id="task_priority" name="task_priority" placeholder="priority">
+      <input type="submit" value="(+) add">
+    </form><!-- #add_task -->
+    
+    <section id="canvas"></section>
+    
+  </div><!-- #wrapper -->
+</body>
+</html>
