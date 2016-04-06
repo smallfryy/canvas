@@ -5,7 +5,7 @@ class CanvasController < ApplicationController
   end 
 
   def create 
-
+    params 
   end 
 
   def index
