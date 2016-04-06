@@ -8,5 +8,9 @@ class CanvasController < ApplicationController
 
   end 
 
+  def index
+    
+  end 
+
 
 end
