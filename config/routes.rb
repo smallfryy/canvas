@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :canvas do 
-    resources :tasks
-  end
+ resources :canvas
+ resources :tasks
 
-  root to: 'pages#home'
+  root 'pages#home'
   
 
   # The priority is based upon order of creation: first created -> highest priority.

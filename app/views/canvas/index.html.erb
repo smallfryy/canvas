@@ -1,1 +1,17 @@
+<div class="conatiner">
 <h1>Canvas</h1>
+    <%= form_for @canva do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+    <%= f.label :collaborators %>
+    <%= f.text_field :collaborators %>
+    <%= f.label :budet %>
+    <%= f.text_field :budget %>
+    <%= f.label :timeline %>
+    <%= f.text_field :timeline %>
+    <%= f.submit "(+) Create Canvas" %>
+    <% end %>
+
+  </div>

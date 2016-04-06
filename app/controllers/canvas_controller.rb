@@ -1,16 +1,8 @@
 class CanvasController < ApplicationController
-
-  def new 
-    @canva = Canva.new 
-  end 
+# kind of redundant 
 
   def create 
-    params 
-  end 
 
-  def index
-    
-  end 
-
+  end
 
 end
