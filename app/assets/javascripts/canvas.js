@@ -1,16 +1,4 @@
-$(document).on('ready', function(){
-  $(document).ajaxSuccess(function(event, request, settings ){
-    // $('.todo-list').prepend(request.responseJSON.html)
 
-  $('form').on('submit', function(event){
-    event.preventDefault();
-    $.ajax({
-      url: '/items',
-      method: 'POST',
-      data: $('form').serializeArray()
-    })
-  })
-})
 
 
 
