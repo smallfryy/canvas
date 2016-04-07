@@ -10,7 +10,7 @@
    <h1>Canvas</h1>
    <p><i>A Trello Board for Creatives</i>
    
-   <div class="row"> 
+   <div class="canvas_form"> 
      <h2>Canvas</h2>
       <%= form_for(@canva, url: canvas_path, html:{method: :post})do |f| %>
       <%= f.label :title %>
@@ -27,8 +27,19 @@
       <% end %>
     </div>
     <div class="canvas">
+
     <!-- where you will render new canvas-->
     </div>
+
+    <div class="tasks_form"> 
+    <h2>New Task</h2>
+    <%= form_for @task do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %><br>
+    <%= f.label :description %>
+    <%= f.text_area :description %><br>
+    <%= f.submit %>
+    <% end %>
   </div><!-- #wrapper -->
 </body>
 </html>

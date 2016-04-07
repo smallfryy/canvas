@@ -24,7 +24,7 @@ body {
   clear:both;
 }
 
-form, #lists div {
+form, #canvas div {
   border:1px solid #333;
   background: rgba(255,255,255,.75);
   padding:15px 20px 18px 18px;
@@ -33,13 +33,13 @@ form, #lists div {
   box-shadow: 2px 5px 5px #333;
 }
 
-form, #lists div {
+form, #canvas div {
   width:31%;
   float:left;
   padding-top: 20px;
 }
 
-#lists {
+#canvas {
   clear:both;
 }
 
@@ -85,7 +85,7 @@ input[type="submit"]:hover {
   box-shadow: 2px 2px 0px rgba(0,255,0,.5);
 }
 
-.destroy-task:hover, .destroy-list:hover {
+.destroy-task:hover, .destroy-canvas:hover {
   background:#333;
   color:#f00;
   box-shadow: 2px 2px 0px rgba(255,0,0,.5);
@@ -119,7 +119,15 @@ button {
   top: -5px;
 }
 
-#lists h2 {
+canvas {
+  font-size: 2em;
+  color: #26558b;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+
+#canvas h2 {
   font-size: 2em;
   color: #26558b;
   line-height: 22px;

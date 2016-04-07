@@ -26,6 +26,7 @@ class PagesController < ApplicationController
   end
 
   def destroy
+    @canva = Canva.find(params[:id])
   end
 
   private
