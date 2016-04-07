@@ -1,3 +1,127 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  background: #66ffcc; /* Old browsers */
+  background: -moz-linear-gradient(top,  #66ffcc 0%, #99ffdd 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66ffcc), color-stop(100%,#99ffdd)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #66ffcc 0%,#99ffdd 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #66ffcc 0%,#99ffdd 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #66ffcc 0%,#99ffdd 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #66ffcc 0%,#99ffdd 100%); /* W3C */
+  background-size: cover;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee1ed', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+  color:#000;
+  padding:20px;
+}
+
+#wrapper {
+  width: 80%;
+  margin:0 auto;
+  clear:both;
+}
+
+form, #lists div {
+  border:1px solid #333;
+  background: rgba(255,255,255,.75);
+  padding:15px 20px 18px 18px;
+  border-radius:5px;
+  margin:0 2% 2% 0;
+  box-shadow: 2px 5px 5px #333;
+}
+
+form, #lists div {
+  width:31%;
+  float:left;
+  padding-top: 20px;
+}
+
+#lists {
+  clear:both;
+}
+
+label, input {
+  display:block;
+  margin:0 0 5px;
+}
+
+label {
+  color:#666;
+}
+
+input[type="text"], select {
+  padding: 5px;
+  font-size:14px;
+  border:1px solid #666;
+  border-radius:5px;
+  background: #fff;
+  box-shadow: 2px 2px 0px #666;
+}
+
+input[type="submit"], button {
+  background: #e4f5fc; /* Old browsers */
+  background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+  padding:5px 10px;
+  border:1px solid #333;
+  color:#000;
+  border-radius:5px;
+  box-shadow: 2px 2px 0px #666;
+  font-weight:bold;
+  font-size:14px;
+}
+
+input[type="submit"]:hover {
+  background:#333;
+  color:#0f0;
+  box-shadow: 2px 2px 0px rgba(0,255,0,.5);
+}
+
+.destroy-task:hover, .destroy-list:hover {
+  background:#333;
+  color:#f00;
+  box-shadow: 2px 2px 0px rgba(255,0,0,.5);
+}
+
+h1 {
+  color:#fff;
+  text-shadow: 2px 2px 0px #333;
+  margin:0 0 10px;
+  font-size:32px;
+  font-weight:bold;
+}
+
+li {
+  list-style:none;
+  color:#000;
+  font-size: 18px;
+  font-weight: normal;
+  margin:0 0 5px 0;
+  border-bottom:1px dotted #ccc;
+  padding:2px;
+}
+
+select {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+button {
+  position: relative;
+  top: -5px;
+}
+
+#lists h2 {
+  font-size: 2em;
+  color: #26558b;
+  line-height: 22px;
+  margin-bottom: 10px;
+}

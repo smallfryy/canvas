@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Canvas</title>
-  <script src="assets/javascripts/lib/jquery-2.1.1.min.js"></script>
-  <script src="assets/javascripts/lib/underscore.min.js"></script>
 </head>
 
 <body>
@@ -27,17 +25,6 @@
       <%= f.text_field :timeline %><br>
       <%= f.submit "(+) Create Canvas" %>
       <% end %>
-    </div>
-
-    <div class="row"> 
-    <h2>Task</h2>
-    <%= form_for @task do |f| %>
-    <%= f.label :title %>
-    <%= f.text_field :title %><br>
-    <%= f.label :description %>
-    <%= f.text_area :description %><br>
-    <%= f.submit "(+) Create Canvas" %>
-    <% end %>
     </div>
 
   </div><!-- #wrapper -->
