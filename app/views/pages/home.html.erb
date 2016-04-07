@@ -12,9 +12,9 @@
    
    <div class="row"> 
      <h2>Canvas</h2>
-      <%= form_for @canva do |f| %>
+      <%= form_for(@canva, url: canvas_path, html:{method: :post})do |f| %>
       <%= f.label :title %>
-      <%= f.text_field :title %> <br>
+      <%= f.text_field :title, :placeholder => "ex. Jeff Koons Sculpture" %> <br>
       <%= f.label :description %>
       <%= f.text_area :description %><br>
       <%= f.label :collaborators %>
@@ -23,10 +23,12 @@
       <%= f.text_field :budget %><br>
       <%= f.label :timeline %>
       <%= f.text_field :timeline %><br>
-      <%= f.submit "(+) Create Canvas" %>
+      <%= f.submit id:"canva_submit", value:"(+) Create Canvas" %>
       <% end %>
     </div>
-
+    <div class="canvas">
+    <!-- where you will render new canvas-->
+    </div>
   </div><!-- #wrapper -->
 </body>
 </html>

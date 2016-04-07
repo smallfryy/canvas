@@ -4,14 +4,34 @@ class PagesController < ApplicationController
     @canva = Canva.new
     @task = Task.new
   end
+  
+  def new 
+    @canva = Canva.new
+  end
 
   def create 
-    render json: {name: params[:name]}
+   
+  end
+
+  def index
+    @canva = Canva.new
   end
 
   def show 
     @canva = Canva.find(params[:id])
-    render 'home'
+    render 'pages'
+  end
+
+  def update
+  end
+
+  def destroy
+  end
+
+  private
+
+  def canva_attributes
+    params.require(:canva).permit(:title)
   end
 
 end

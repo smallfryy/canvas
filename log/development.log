@@ -5869,3 +5869,334 @@ SyntaxError (/Users/hollypeck/Development/code/canvas/app/controllers/tasks_cont
   Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
   Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (110.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 11:22:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 786ms (Views: 730.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/canvas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started GET "/assets/pages.self-71a161df439a663f6b276ecadc0bd7409a2bb9a6e9c41f1c65f2f0119d0a7f54.css?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started GET "/assets/pages.self-981c767a45f787e5c9567e3bc0340f5d08a21d4df1649a472f942457a73a30b7.js?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-04-07 11:22:28 -0400
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:22:32 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jZMIkBSoFdWTbNcmY4OTrlYj3pcfznG5oIIG8hhR5zOG1WxKsIVif4AUMWGpp06jyLWF6xUkjguD04dwfTgMLQ==", "canva"=>{"title"=>"", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+
+
+Started GET "/" for ::1 at 2016-04-07 11:26:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (73.9ms)
+Completed 200 OK in 814ms (Views: 745.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/canvas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started GET "/assets/pages.self-71a161df439a663f6b276ecadc0bd7409a2bb9a6e9c41f1c65f2f0119d0a7f54.css?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started GET "/assets/pages.self-9d792ac4eb1a7b12645d243acbd91682586ce44d2e887afb4914e8220ea7b375.js?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 11:27:01 -0400
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:27:02 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ujjP7HNgVeKr3GIMTzweWafDSknihmaeAObKDH0EHPZroflFeD2/ZnXl8/7GC10+AlWVS1g5ihbUhqqVJ37bQ==", "canva"=>{"title"=>"", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `canva_attribute' for #<CanvasController:0x007fd84c146730>):
+  app/controllers/canvas_controller.rb:5:in `create'
+
+
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (73.4ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:27:07 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ujjP7HNgVeKr3GIMTzweWafDSknihmaeAObKDH0EHPZroflFeD2/ZnXl8/7GC10+AlWVS1g5ihbUhqqVJ37bQ==", "canva"=>{"title"=>"Hello", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `canva_attribute' for #<CanvasController:0x007fd85103ff30>):
+  app/controllers/canvas_controller.rb:5:in `create'
+
+
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (50.7ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:31:53 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ujjP7HNgVeKr3GIMTzweWafDSknihmaeAObKDH0EHPZroflFeD2/ZnXl8/7GC10+AlWVS1g5ihbUhqqVJ37bQ==", "canva"=>{"title"=>"Hello", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `canva_attribute' for #<CanvasController:0x007fd84f1bda80>):
+  app/controllers/canvas_controller.rb:5:in `create'
+
+
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (74.8ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:32:43 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ujjP7HNgVeKr3GIMTzweWafDSknihmaeAObKDH0EHPZroflFeD2/ZnXl8/7GC10+AlWVS1g5ihbUhqqVJ37bQ==", "canva"=>{"title"=>"Hello", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `canva_attribute' for #<CanvasController:0x007fd851936a80>):
+  app/controllers/canvas_controller.rb:5:in `create'
+
+
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (64.4ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:32:45 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ujjP7HNgVeKr3GIMTzweWafDSknihmaeAObKDH0EHPZroflFeD2/ZnXl8/7GC10+AlWVS1g5ihbUhqqVJ37bQ==", "canva"=>{"title"=>"Hello", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `canva_attribute' for #<CanvasController:0x007fd84c266c00>):
+  app/controllers/canvas_controller.rb:5:in `create'
+
+
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (66.5ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:33:30 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ujjP7HNgVeKr3GIMTzweWafDSknihmaeAObKDH0EHPZroflFeD2/ZnXl8/7GC10+AlWVS1g5ihbUhqqVJ37bQ==", "canva"=>{"title"=>"Hello", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `canva_attribute' for #<CanvasController:0x007fd8512a4910>):
+  app/controllers/canvas_controller.rb:5:in `create'
+
+
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/hollypeck/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (64.9ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 11:34:57 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 102ms (Views: 80.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:35:01 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ufA5nq9xKT2Rw5HcQKt3pwPK7uQRbGevFsE+2vyFv52ytl1EC1xel4K7d5uKj6qqnVy1mBuGmB01kL9YmexUgw==", "canva"=>{"title"=>"", "description"=>"sdfs", "collaborators"=>"dfs", "budget"=>"", "timeline"=>""}}
+Completed 200 OK in 71628ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:36:13 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ufA5nq9xKT2Rw5HcQKt3pwPK7uQRbGevFsE+2vyFv52ytl1EC1xel4K7d5uKj6qqnVy1mBuGmB01kL9YmexUgw==", "canva"=>{"title"=>"sdfsd", "description"=>"sdfssdfds", "collaborators"=>"dfsdsfs", "budget"=>"sf", "timeline"=>""}}
+
+
+Started GET "/" for ::1 at 2016-04-07 11:36:35 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (88.5ms)
+Completed 200 OK in 612ms (Views: 549.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:36:41 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuxH+/2zgtDclJ4ULX7fx/5TLMp0fwj3NXpSDsGSZU/NqiMhWZ71es/seFPnWgLKYMV3tn6V90UWK9OMpPuOUQ==", "canva"=>{"title"=>"", "description"=>"sdfsd", "collaborators"=>"sdf", "budget"=>"sdf", "timeline"=>""}}
+Completed 200 OK in 60520ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 11:37:48 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:38:02 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UiojnOf8h0/zo6qmKqr7F8ko7m7uai0f7hD9JtogkFhZbEdGQ9Hw5eDbTOHgjiYaV761EuSA0q3NQXykv0l7Rg==", "canva"=>{"title"=>"jeff", "description"=>"ajax", "collaborators"=>"holly", "budget"=>"2342", "timeline"=>"may"}}
+Completed 200 OK in 29342ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 11:43:59 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 254ms (Views: 230.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/pages.self-71a161df439a663f6b276ecadc0bd7409a2bb9a6e9c41f1c65f2f0119d0a7f54.css?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started GET "/assets/canvas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started GET "/assets/pages.self-88141de059c2e51fddc354ea7e98bb59c47cf9f1415e62ab6093796ea7607a20.js?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-04-07 11:44:00 -0400
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:44:01 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RRboJC3qNHmwevxbPgj5lNUbri855SrYWvrCbDV2r5tOUIz+icdD06MCGhz0LCSZS431UzMP1Wp5q0PuUB9EhQ==", "canva"=>{"title"=>"", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:44:10 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RRboJC3qNHmwevxbPgj5lNUbri855SrYWvrCbDV2r5tOUIz+icdD06MCGhz0LCSZS431UzMP1Wp5q0PuUB9EhQ==", "canva"=>{"title"=>"", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 11:44:28 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 173ms (Views: 172.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-71a161df439a663f6b276ecadc0bd7409a2bb9a6e9c41f1c65f2f0119d0a7f54.css?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started GET "/assets/canvas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started GET "/assets/pages.self-9f332fc5cc29abd098077b5c6514507289e1e7817f755e9cd392a0b44172266d.js?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-04-07 11:44:29 -0400
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:44:30 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SQzSp+YTpQwE9UY1e/l3vQf1GJ+UOcD304swTDUdQ1VCSrZ9Qj7SpheNoHKx3aqwmWND457TP0Xw2rHOUHSoSw==", "canva"=>{"title"=>"", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:44:39 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SQzSp+YTpQwE9UY1e/l3vQf1GJ+UOcD304swTDUdQ1VCSrZ9Qj7SpheNoHKx3aqwmWND457TP0Xw2rHOUHSoSw==", "canva"=>{"title"=>"", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 11:45:19 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 143ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/canvas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started GET "/assets/pages.self-71a161df439a663f6b276ecadc0bd7409a2bb9a6e9c41f1c65f2f0119d0a7f54.css?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started GET "/assets/pages.self-c3119504151e32ed2bc8ad1e2fb40bc6fb9c99566a70fc2363f4786b78eb90f7.js?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-04-07 11:45:19 -0400
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:45:21 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLnOarVYNs7Qz8/aenHJA9iWw4OoPPWj2XhMJkdMjaYD/6qwEXVBZMO3KZ2wVRQORgCY/6LWChH6Kc2kIiVmuA==", "canva"=>{"title"=>"", "description"=>"", "collaborators"=>"", "budget"=>"", "timeline"=>""}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:46:12 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLnOarVYNs7Qz8/aenHJA9iWw4OoPPWj2XhMJkdMjaYD/6qwEXVBZMO3KZ2wVRQORgCY/6LWChH6Kc2kIiVmuA==", "canva"=>{"title"=>"My Canvas", "description"=>"This is my thing", "collaborators"=>"Nami", "budget"=>"10000", "timeline"=>"Hey"}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/canvas" for ::1 at 2016-04-07 11:46:23 -0400
+Processing by CanvasController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLnOarVYNs7Qz8/aenHJA9iWw4OoPPWj2XhMJkdMjaYD/6qwEXVBZMO3KZ2wVRQORgCY/6LWChH6Kc2kIiVmuA==", "canva"=>{"title"=>"My Canvas", "description"=>"This is my thing", "collaborators"=>"Nami", "budget"=>"10000", "timeline"=>"Hey"}}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
